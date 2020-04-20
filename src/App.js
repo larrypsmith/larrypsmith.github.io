@@ -3,17 +3,20 @@ import {
   CssBaseline,
   Container
 } from '@material-ui/core'
+import { StylesProvider } from '@material-ui/core/styles'
 import ProjectList from './components/ProjectList';
-import Greeting from './components/Greeting'
+import GreetingBanner from './components/GreetingBanner'
 import './App.css';
 
 function App() {
   return (
-    <Container>
+    <StylesProvider injectFirst>
       <CssBaseline />
-      <Greeting />
-      <ProjectList />
-    </Container>
+        <GreetingBanner />
+      <Container>
+        <ProjectList />
+      </Container>
+    </StylesProvider>
   );
 }
 

@@ -14,7 +14,7 @@ export const projects = {
   thoughtBoard: {
     title: "ThoughtBoard",
     subtitle: "An Image-Based Note-Taking Web App",
-    description: "ThoughtBoard lets users create notes that can be dragged around the screen and organized as desired.",
+    description: "ThoughtBoard is a note-taking web app that lets users drag notes around the screen and organize them as desired.",
     image: thoughtBoard,
     website: "https://thought-board-labs.herokuapp.com/#/profile",
     gitHub: "https://github.com/larrypsmith/thought-board"

@@ -1,22 +1,28 @@
 import React from 'react';
-import {
-  Container,
-  Grid,
-  Paper,
-  Typography
-} from '@material-ui/core';
-import '../styles/greeting.css'
+import Container from '@material-ui/core/Container';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import '../styles/GreetingBanner.css';
 
-export default () => (
+const GreetingBanner = () => (
   <Paper className="GreetingBanner">
-    <Container>
-      <div className="overlay" />
-        <Typography variant="h2" className="title-text" gutterBottom>
-          Hi, I'm Larry.
-        </Typography>
-        <Typography variant="h3" className="title-text">
-          I build web apps that do cool stuff.
-        </Typography>
+    <div className="overlay" />
+    <Container maxWidth="sm" className="title-text">
+      <Typography
+        variant="h2"
+        align="center"
+        gutterBottom
+      >
+        Hi, I'm Larry.
+      </Typography>
+      <Typography
+        variant="h5"
+        align="center"
+      >
+        I'm a software engineer who develops web applications with React, Redux, and Ruby on Rails.
+      </Typography>
     </Container>
   </Paper>
-)
+);
+
+export default GreetingBanner;

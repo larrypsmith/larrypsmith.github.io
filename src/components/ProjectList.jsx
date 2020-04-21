@@ -1,18 +1,15 @@
 import React from 'react';
-import {
-  Grid,
-  Paper,
-  Typography
-} from '@material-ui/core';
-import { projects } from '../data';
+import Grid from '@material-ui/core/Grid';
 import Project from './Project';
+import Typography from '@material-ui/core/Typography';
+import { projects } from '../data';
 
-export default () => (
+const ProjectList = () => (
   <React.Fragment>
-    <Typography variant="h3">
-      Projects
+    <Typography variant="h3" align="center" gutterBottom>
+      Take a look at my projects.
     </Typography>
-    <Grid container spacing={2}>
+    <Grid container spacing={4}>
       {
         Object.values(projects).map((project, i) => (
           <Grid
@@ -33,4 +30,6 @@ export default () => (
       }
     </Grid>
   </React.Fragment>
-)
+);
+
+export default ProjectList;

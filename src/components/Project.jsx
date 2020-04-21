@@ -17,7 +17,7 @@ export default ({ title, description, image, website, gitHub }) => (
         <CardMedia
           component="img"
           image={image}
-          height={180}
+          height={250}
         />
       </CardActionArea>
     </Link>

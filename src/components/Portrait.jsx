@@ -9,17 +9,19 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down('sm')]: {
       width: '150px',
       height: '150px',
-      top: '-75px'
+      top: '-75px',
+      marginBottom: '-50px'
     },
     [theme.breakpoints.up('md')]: {
       width: '200px',
       height: '200px',
-      top: '-100px'
+      top: '-100px',
+      marginBottom: '-75px'
     }
   }
 }));
 
-const HeadShot = () => {
+const Portrait = () => {
   const classes = useStyles();
 
   return (
@@ -30,4 +32,4 @@ const HeadShot = () => {
   )
 };
 
-export default HeadShot;
+export default Portrait;

@@ -49,3 +49,54 @@ export const social = {
     icon: AngelListIcon
   }
 };
+
+export const skills = [
+  {
+    name: 'React',
+    faClass: 'react'
+  },
+  {
+    name: 'Redux',
+  },
+  {
+    name: 'JavaScript',
+    faClass: 'js-square'
+  },
+  {
+    name: 'HTML5',
+    faClass: 'html5'
+  },
+  {
+    name: 'CSS3',
+    faClass: 'css3-alt'
+  },
+  {
+    name: 'Node.js',
+    faClass: 'node-js'
+  },
+  {
+    name: 'Express'
+  },
+  {
+    name: 'Ruby on Rails',
+  },
+  {
+    name: 'D3.js'
+  },
+  {
+    name: 'jQuery'
+  },
+  {
+    name: 'postgreSQL'
+  },
+  {
+    name: 'MongoDB'
+  },
+  {
+    name: 'Mongoose'
+  },
+  {
+    name: 'AWS S3',
+    faClass: 'aws'
+  }
+]

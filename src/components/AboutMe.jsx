@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '@material-ui/core/Card'
+import CardTitle from './CardTitle';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import Portrait from './Portrait';
@@ -33,13 +34,7 @@ const AboutMe = () => {
           </Grid>
         </Grid>
         <CardContent className={classes.cardContent}>
-          <Typography
-            variant="h2"
-            align="center"
-            gutterBottom
-            >
-            About Me
-          </Typography>
+          <CardTitle>About Me</CardTitle>
 
           <Typography
             variant="h5"

@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent';
-import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import Portrait from './Portrait';
 import Typography from '@material-ui/core/Typography';
@@ -10,6 +9,9 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles({
   card: {
     overflow: 'visible'
+  },
+  cardContent: {
+    paddingTop: 0
   },
   portrait: {
     position: 'relative',
@@ -20,7 +22,6 @@ const AboutMe = () => {
   const classes = useStyles();
   
   return(
-    <Container maxWidth="md">
       <Card className={classes.card}>
         <Grid container
           justify="center"
@@ -31,7 +32,7 @@ const AboutMe = () => {
             <Portrait />
           </Grid>
         </Grid>
-        <CardContent>
+        <CardContent className={classes.cardContent}>
           <Typography
             variant="h2"
             align="center"
@@ -52,7 +53,6 @@ const AboutMe = () => {
           </Typography>
         </CardContent>
       </Card>
-    </Container>
   )
 };
 

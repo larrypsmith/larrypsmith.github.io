@@ -32,7 +32,8 @@ const ProjectList = () => {
               item
               key={i}
               xs={12}
-              sm={4}
+              sm={6}
+              lg={4}
             >
               <Project
                 title={project.title}

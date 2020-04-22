@@ -7,7 +7,7 @@ const useStyles = makeStyles(theme => ({
   root: {
     color: theme.palette.primary.contrastText,
     position: 'relative',
-    padding: '10rem 0'
+    padding: theme.spacing(20, 0)
   }
 }));
 

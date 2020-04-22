@@ -7,7 +7,6 @@ import GreetingBanner from './components/GreetingBanner'
 import HeadShot from './components/HeadShot';
 import ProjectList from './components/ProjectList';
 import { StylesProvider } from '@material-ui/core/styles'
-import './App.css';
 
 const App = () => {
   return (

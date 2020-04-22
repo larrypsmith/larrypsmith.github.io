@@ -28,18 +28,17 @@ const GreetingBanner = () => {
       <Overlay />
       <Container maxWidth="sm" className={classes.text}>
         <Typography
-          variant="h2"
+          variant="h1"
           align="center"
           gutterBottom
         >
           Hi, I'm Larry.
         </Typography>
         <Typography
-          variant="h5"
+          variant="h4"
           align="center"
         >
-          Final Test
-          {/* I'm a software engineer who develops web applications with React, Redux, and Ruby on Rails. */}
+          I'm a software engineer who develops web applications with React, Redux, and Ruby on Rails.
         </Typography>
       </Container>
     </Paper>

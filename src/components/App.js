@@ -27,10 +27,10 @@ const App = () => {
       <Container maxWidth="lg">
         <Greeting />
         <Grid container className={classes.gridContainer}>
-          <Grid item xs={12}>
+          <Grid item>
             <AboutMe />
           </Grid>
-          <Grid item xs={12}>
+          <Grid item>
             <ProjectList />
           </Grid>
         </Grid>

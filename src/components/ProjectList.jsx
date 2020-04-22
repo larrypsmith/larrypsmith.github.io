@@ -7,7 +7,8 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles(theme => ({
   header: {
-    color: theme.palette.primary.contrastText
+    color: theme.palette.primary.contrastText,
+    marginBottom: theme.spacing(5)
   }
 }))
 

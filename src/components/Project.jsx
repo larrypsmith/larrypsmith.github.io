@@ -22,7 +22,7 @@ export default ({ title, description, image, website, gitHub }) => (
       </CardActionArea>
     </Link>
     <CardContent>
-      <Typography variant="h5">
+      <Typography variant="h4" gutterBottom>
         {title}
       </Typography>
       <Typography variant="body1">
@@ -36,7 +36,7 @@ export default ({ title, description, image, website, gitHub }) => (
           variant="outlined"
           size="small"
           startIcon={<WebIcon />}
-        >
+          >
           Live Site
         </Button>
       </Link>
@@ -46,7 +46,7 @@ export default ({ title, description, image, website, gitHub }) => (
           variant="outlined"
           size="small"
           startIcon={<GitHubIcon />}
-        >
+          >
           GitHub
         </Button>
       </Link>

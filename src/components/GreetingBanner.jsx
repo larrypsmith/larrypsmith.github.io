@@ -38,7 +38,8 @@ const GreetingBanner = () => {
           variant="h5"
           align="center"
         >
-          I'm a software engineer who develops web applications with React, Redux, and Ruby on Rails.
+          I'm testing something
+          {/* I'm a software engineer who develops web applications with React, Redux, and Ruby on Rails. */}
         </Typography>
       </Container>
     </Paper>

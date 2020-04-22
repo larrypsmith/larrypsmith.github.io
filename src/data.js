@@ -1,6 +1,9 @@
 import bitter from './images/bitter.png';
 import plotify from './images/plotify.png';
 import thoughtBoard from './images/thought-board.png';
+import AngelListIcon from './components/AngelListIcon';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export const projects = {
   bitter: {
@@ -28,3 +31,21 @@ export const projects = {
     gitHub: "https://github.com/larrypsmith/plotify"
   }
 }
+
+export const social = {
+  gitHub: {
+    name: "GitHub",
+    url: "https://github.com/larrypsmith",
+    icon: GitHubIcon
+  },
+  linkedIn: {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/larrypaulsmith/",
+    icon: LinkedInIcon
+  },
+  angelList: {
+    name: "AngelList",
+    url: "https://angel.co/u/larry-paul-smith",
+    icon: AngelListIcon
+  }
+};

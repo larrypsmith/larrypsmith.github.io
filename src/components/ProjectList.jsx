@@ -7,7 +7,7 @@ import { projects } from '../data';
 const ProjectList = () => (
   <React.Fragment>
     <Typography variant="h3" align="center" gutterBottom>
-      Take a look at my projects.
+      My Projects
     </Typography>
     <Grid container spacing={4}>
       {

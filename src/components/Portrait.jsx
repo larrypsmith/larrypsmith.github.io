@@ -21,7 +21,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const HeadShot = () => {
+const Portrait = () => {
   const classes = useStyles();
 
   return (
@@ -32,4 +32,4 @@ const HeadShot = () => {
   )
 };
 
-export default HeadShot;
+export default Portrait;

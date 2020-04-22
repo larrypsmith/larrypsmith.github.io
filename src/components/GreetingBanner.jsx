@@ -3,11 +3,10 @@ import Container from '@material-ui/core/Container';
 import Overlay from './Overlay';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import '../styles/GreetingBanner.css';
 import { makeStyles } from '@material-ui/core/styles';
 import goldenGate from '../images/golden-gate.jpg'
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   root: {
     position: 'relative',
     backgroundImage: `url(${goldenGate})`,
@@ -15,11 +14,11 @@ const useStyles = makeStyles({
     backgroundPosition: 'center'
   },
   text: {
-    color: 'rgb(255, 255, 255)',
+    color: theme.palette.primary.contrastText,
     position: 'relative',
     padding: '10rem 0'
   }
-});
+}));
 
 const GreetingBanner = () => {
   const classes = useStyles();

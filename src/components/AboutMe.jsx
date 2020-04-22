@@ -18,7 +18,7 @@ const AboutMe = () => (
     >
       I am a software engineer living in San Francisco.
       I love to build products from the ground up.
-      My current projects include an Untappd clone,
+      My ongoing projects include an Untappd clone,
       an image-based note-taking web app built on the MERN stack,
       and a JavaScript web app that visualizes Spotify user data.
     </Typography>

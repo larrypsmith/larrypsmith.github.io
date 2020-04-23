@@ -58,12 +58,13 @@ const AboutMe = () => {
 
           <Grid
             container
+            spacing={4}
             justify="space-around"
           >
             {
               Object.values(social).map((website, i) => (
-                <Grid item key={i} xs={12} sm='auto' align="center">
-                  <Link href={website.url} variant="h6">{website.name}</Link>
+                <Grid item key={i}>
+                  <Link href={website.url} variant="body1">{website.name}</Link>
                 </Grid>
               ))
             }

@@ -32,15 +32,9 @@ const App = () => {
           className={classes.gridContainer}
           justify="center"
         >
-          <Grid item>
-            <AboutMe />
-          </Grid>
-          <Grid item>
-            <Projects />
-          </Grid>
-          <Grid item>
-            <Skills />
-          </Grid>
+          <Grid item><AboutMe /></Grid>
+          <Grid item><Projects /></Grid>
+          <Grid item><Skills /></Grid>
         </Grid>
       </Container>
     </StylesProvider>

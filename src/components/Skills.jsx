@@ -13,6 +13,7 @@ export default function Skills() {
         <CardTitle>
           Skills
         </CardTitle>
+        
         <Grid container spacing={2} justify="center">
           {
             skills.map((skill, i) => (

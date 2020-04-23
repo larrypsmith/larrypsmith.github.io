@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import WebIcon from '@material-ui/icons/Web';
 
 export default ({ title, description, image, website, gitHub }) => (
-  <Card>
+  <Card elevation={0} variant="outlined">
     <Link href={website} underline="none">
       <CardActionArea>
         <CardMedia

@@ -7,7 +7,7 @@ import Portrait from './Portrait';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles(theme => ({
   card: {
     overflow: 'visible'
   },
@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   portrait: {
     position: 'relative',
   }
-})
+}))
 
 const AboutMe = () => {
   const classes = useStyles();

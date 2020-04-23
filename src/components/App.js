@@ -13,7 +13,7 @@ import Skills from './Skills';
 const useStyles = makeStyles(theme => ({
   gridContainer: {
     '& > *': {
-      marginBottom: theme.spacing(20)
+      marginBottom: theme.spacing(15),
     }
   }
 }));

@@ -10,7 +10,7 @@ import Link from '@material-ui/core/Link';
 import Portrait from './Portrait';
 import Slide from '@material-ui/core/Slide'
 import Typography from '@material-ui/core/Typography';
-import resume from '../Larry_Smith_Resume.pdf'
+
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -58,24 +58,15 @@ const AboutMe = () => {
 
           <Grid
             container
-            justify="center"
-            spacing={5}
+            justify="space-around"
           >
             {
               Object.values(social).map((website, i) => (
-                <Grid item key={i}>
-                  <Link href={website.url}>{website.name}</Link>
+                <Grid item key={i} xs={12} sm='auto' align="center">
+                  <Link href={website.url} variant="h6">{website.name}</Link>
                 </Grid>
               ))
             }
-            <Grid item>
-              <Link href={resume}>Résumé</Link>
-            </Grid>
-            <Grid item>
-              <Link href="mailto:lawrencepaulsmith1@gmail.com">
-                Email: lawrencepaulsmith1@gmail.com
-              </Link>
-            </Grid>
           </Grid>
         </CardContent>
       </Card>

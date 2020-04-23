@@ -18,6 +18,7 @@ import { ReactComponent as JQueryLogo } from './images/jquery.svg';
 import { ReactComponent as PostgreSqlLogo } from './images/postgresql.svg';
 import { ReactComponent as MongoDbLogo } from './images/mongodb.svg';
 import { ReactComponent as AwsLogo } from './images/aws.svg';
+import resume from './Larry_Smith_Resume.pdf'
 
 export const projects = {
   bitter: {
@@ -61,6 +62,14 @@ export const social = {
     name: "AngelList",
     url: "https://angel.co/u/larry-paul-smith",
     icon: AngelListIcon
+  },
+  resume: {
+    name: "Download Résumé",
+    url: resume
+  },
+  email: {
+    name: "Email: lawrencepaulsmith1@gmail.com",
+    url: "mailto:lawrencepaulsmith1@gmail.com"
   }
 };
 

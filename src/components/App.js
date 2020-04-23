@@ -7,7 +7,7 @@ import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Greeting from './Greeting'
 import Grid from '@material-ui/core/Grid';
-import ProjectList from './ProjectList';
+import Projects from './Projects';
 import Skills from './Skills';
 
 const useStyles = makeStyles(theme => ({
@@ -36,7 +36,7 @@ const App = () => {
             <AboutMe />
           </Grid>
           <Grid item>
-            <ProjectList />
+            <Projects />
           </Grid>
           <Grid item>
             <Skills />

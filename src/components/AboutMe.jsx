@@ -38,6 +38,7 @@ const AboutMe = () => {
 
           <Typography
             variant="h5"
+            align="center"
             paragraph
             >
             I am a software engineer living in San Francisco.

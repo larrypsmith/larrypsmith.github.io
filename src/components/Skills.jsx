@@ -3,7 +3,8 @@ import { skills } from '../data';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardTitle from './CardTitle';
-import SkillChip from './SkillChip';
+import Grid from '@material-ui/core/Grid';
+import Skill from './Skill';
 
 export default function Skills() {
   return(
@@ -12,18 +13,16 @@ export default function Skills() {
         <CardTitle>
           Skills
         </CardTitle>
-        <div>
+        <Grid container spacing={2} justify="center">
           {
             skills.map((skill, i) => (
-              <SkillChip
-                key={i}
-                name={skill.name}
-                faClass={skill.faClass}
-              />
+              <Grid item key={i} xs={12} sm='auto'>
+                <Skill name={skill.name} logo={skill.logo} />
+              </Grid>
             ))
           }
-        </div>
+        </Grid>
       </CardContent>
     </Card>
-  )
-}
+  );
+};

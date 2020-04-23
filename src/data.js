@@ -4,6 +4,20 @@ import thoughtBoard from './images/thought-board.png';
 import AngelListIcon from './components/AngelListIcon';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import { ReactComponent as ReactLogo } from './images/react.svg';
+import { ReactComponent as ReduxLogo } from './images/redux.svg';
+import { ReactComponent as JavaScriptLogo } from './images/javascript.svg';
+import { ReactComponent as Html5Logo } from './images/html5.svg';
+import { ReactComponent as Css3Logo } from './images/css3.svg';
+import { ReactComponent as NodeJsLogo } from './images/nodejs.svg';
+import { ReactComponent as ExpressJsLogo } from './images/expressjs.svg';
+import { ReactComponent as RubyLogo } from './images/ruby.svg';
+import { ReactComponent as RailsLogo } from './images/rails.svg';
+import { ReactComponent as D3Logo } from './images/d3.svg';
+import { ReactComponent as JQueryLogo } from './images/jquery.svg';
+import { ReactComponent as PostgreSqlLogo } from './images/postgresql.svg';
+import { ReactComponent as MongoDbLogo } from './images/mongodb.svg';
+import { ReactComponent as AwsLogo } from './images/aws.svg';
 
 export const projects = {
   bitter: {
@@ -51,52 +65,18 @@ export const social = {
 };
 
 export const skills = [
-  {
-    name: 'React',
-    faClass: 'react'
-  },
-  {
-    name: 'Redux',
-  },
-  {
-    name: 'JavaScript',
-    faClass: 'js-square'
-  },
-  {
-    name: 'HTML5',
-    faClass: 'html5'
-  },
-  {
-    name: 'CSS3',
-    faClass: 'css3-alt'
-  },
-  {
-    name: 'Node.js',
-    faClass: 'node-js'
-  },
-  {
-    name: 'Express'
-  },
-  {
-    name: 'Ruby on Rails',
-  },
-  {
-    name: 'D3.js'
-  },
-  {
-    name: 'jQuery'
-  },
-  {
-    name: 'postgreSQL'
-  },
-  {
-    name: 'MongoDB'
-  },
-  {
-    name: 'Mongoose'
-  },
-  {
-    name: 'AWS S3',
-    faClass: 'aws'
-  }
+  { name: 'React', logo: ReactLogo },
+  { name: 'Redux', logo: ReduxLogo },
+  { name: 'JavaScript', logo: JavaScriptLogo },
+  { name: 'HTML5', logo: Html5Logo },
+  { name: 'CSS3', logo: Css3Logo },
+  { name: 'Node.js', logo: NodeJsLogo },
+  { name: 'Express', logo: ExpressJsLogo },
+  { name: 'Ruby', logo: RubyLogo },
+  { name: 'Rails', logo: RailsLogo },
+  { name: 'D3.js', logo: D3Logo },
+  { name: 'jQuery', logo: JQueryLogo },
+  { name: 'postgreSQL', logo: PostgreSqlLogo },
+  { name: 'MongoDB', logo: MongoDbLogo },
+  { name: 'AWS S3', logo: AwsLogo }
 ]

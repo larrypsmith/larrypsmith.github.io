@@ -1,7 +1,7 @@
 
 # larrysmith.me
 
-larrypsmith.github.io is my portfolio site, which can be reach at [larrysmith.me](http://larrysmith.me).
+larrypsmith.github.io is my portfolio site, which can be found at [larrysmith.me](http://larrysmith.me).
 
 ![Portfolio](https://user-images.githubusercontent.com/55966501/81374101-4aff1c00-90b3-11ea-8927-1ebf0d9ebe0a.png)
 

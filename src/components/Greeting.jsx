@@ -22,14 +22,14 @@ const Greeting = () => {
           variant="h1"
           align="center"
           gutterBottom
-          >
+        >
           Hi, I'm Larry.
         </Typography>
         <Typography
           variant="h4"
           align="center"
-          >
-          I'm a software engineer who develops web applications with React, Redux, and Ruby on Rails.
+        >
+          I'm a programmer, quick learner, and avid cyclist.
         </Typography>
     </Container>
     </Fade>

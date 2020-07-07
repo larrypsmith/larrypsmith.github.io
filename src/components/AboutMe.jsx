@@ -47,11 +47,16 @@ const AboutMe = () => {
             align="center"
             paragraph
           >
-            I am a software engineer living in San Francisco.
-            I love to build products from the ground up.
-            My ongoing projects include an Untappd clone,
-            an image-based note-taking web app built on the MERN stack,
-            and a JavaScript web app that visualizes Spotify user data.
+            I love to build products from the ground up and am constantly
+            learning new things.
+
+            My favorite technologies include React, Redux,
+            Ruby on Rails, and Node.
+
+            When I'm not coding, you can find me cycling in the Marin Headlands.
+
+            Seeking frontend, backend, and full stack opportunities in the
+            Bay Area. Please don't hesitate to reach out!
           </Typography>
 
           <Divider variant="middle" className={classes.divider} />

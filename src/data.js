@@ -89,7 +89,7 @@ export const skills = [
   { name: 'React', logo: ReactLogo },
   { name: 'Redux', logo: ReduxLogo },
   { name: 'GraphQL', logo: GraphQLLogo },
-  { name: 'Apollo', logon: ApolloLogo },
+  { name: 'Apollo', logo: ApolloLogo },
   { name: 'JavaScript', logo: JavaScriptLogo },
   { name: 'Node.js', logo: NodeJsLogo },
   { name: 'HTML5', logo: Html5Logo },

@@ -1,6 +1,7 @@
 import bitter from './images/bitter.png';
 import plotify from './images/plotify.png';
 import thoughtBoard from './images/thought-board.png';
+import toastmates from './images/toastmates.PNG';
 import AngelListIcon from './components/AngelListIcon';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -18,9 +19,20 @@ import { ReactComponent as JQueryLogo } from './images/jquery.svg';
 import { ReactComponent as PostgreSqlLogo } from './images/postgresql.svg';
 import { ReactComponent as MongoDbLogo } from './images/mongodb.svg';
 import { ReactComponent as AwsLogo } from './images/aws.svg';
+import { ReactComponent as GraphQLLogo } from './images/graphql.svg';
+import { ReactComponent as ApolloLogo } from './images/apollo.svg';
+
 import resume from './Larry_Smith_Resume.pdf'
 
 export const projects = {
+  toastmates: {
+    title: "Toastmates",
+    subtitle: "A modern web app powered by GraphQL",
+    description: "Toastmates is a clone of the popular courier service, Postmates.",
+    image: toastmates,
+    website: "https://toastmates.herokuapp.com/#/",
+    gitHub: "https://github.com/larrypsmith/toastmates"
+  },
   bitter: {
     title: "Bitter",
     subtitle: "An Untappd Clone",
@@ -76,13 +88,15 @@ export const social = {
 export const skills = [
   { name: 'React', logo: ReactLogo },
   { name: 'Redux', logo: ReduxLogo },
+  { name: 'GraphQL', logo: GraphQLLogo },
+  { name: 'Apollo', logon: ApolloLogo },
   { name: 'JavaScript', logo: JavaScriptLogo },
+  { name: 'Node.js', logo: NodeJsLogo },
   { name: 'HTML5', logo: Html5Logo },
   { name: 'CSS3', logo: Css3Logo },
+  { name: 'Express', logo: ExpressJsLogo },
   { name: 'Ruby', logo: RubyLogo },
   { name: 'Rails', logo: RailsLogo },
-  { name: 'Node.js', logo: NodeJsLogo },
-  { name: 'Express', logo: ExpressJsLogo },
   { name: 'D3.js', logo: D3Logo },
   { name: 'jQuery', logo: JQueryLogo },
   { name: 'postgreSQL', logo: PostgreSqlLogo },

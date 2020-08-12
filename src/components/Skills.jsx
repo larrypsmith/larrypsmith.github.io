@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardTitle from './CardTitle';
 import Grid from '@material-ui/core/Grid';
-import Skill from './Skill';
+import SkillCard from './SkillCard';
 
 export default function Skills() {
   return(
@@ -18,7 +18,7 @@ export default function Skills() {
           {
             skills.map((skill, i) => (
               <Grid item key={i} xs={12} sm='auto'>
-                <Skill name={skill.name} logo={skill.logo} />
+                <SkillCard name={skill.name} logo={skill.logo} />
               </Grid>
             ))
           }

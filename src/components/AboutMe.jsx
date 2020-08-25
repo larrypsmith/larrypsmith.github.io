@@ -9,7 +9,6 @@ import Fade from '@material-ui/core/Fade';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import Portrait from './Portrait';
-import Slide from '@material-ui/core/Slide'
 import Typography from '@material-ui/core/Typography';
 
 
@@ -51,8 +50,7 @@ const AboutMe = () => {
             I love to build products from the ground up and am constantly
             learning new things.
 
-            My favorite technologies include React, Redux,
-            Ruby on Rails, and Node.
+            My favorite technologies include React, GraphQL, and Node.
 
             When I'm not coding, you can find me cycling in the Marin Headlands.
 

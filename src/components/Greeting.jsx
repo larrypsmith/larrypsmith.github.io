@@ -16,7 +16,7 @@ const Greeting = () => {
   const classes = useStyles();
   
   return(
-    <Fade in timeout={2000}>
+    <Fade in>
       <Container maxWidth="sm" className={classes.root}>
         <Typography
           variant="h1"

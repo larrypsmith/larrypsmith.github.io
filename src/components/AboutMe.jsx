@@ -5,6 +5,7 @@ import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent';
 import CardTitle from './CardTitle';
 import Divider from '@material-ui/core/Divider';
+import Fade from '@material-ui/core/Fade';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
 import Portrait from './Portrait';
@@ -31,7 +32,7 @@ const AboutMe = () => {
   const classes = useStyles();
   
   return(
-    <Slide direction="up" in timeout={2000}>
+    <Fade in>
       <Card className={classes.card}>
         <Grid
           container
@@ -76,7 +77,7 @@ const AboutMe = () => {
           </Grid>
         </CardContent>
       </Card>
-    </Slide>
+    </Fade>
   )
 };
 

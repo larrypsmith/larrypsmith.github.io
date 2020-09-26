@@ -80,8 +80,8 @@ export const social = {
     url: resume
   },
   email: {
-    name: "lawrencepaulsmith1@gmail.com",
-    url: "mailto:lawrencepaulsmith1@gmail.com"
+    name: "larrypsmith415@gmail.com",
+    url: "mailto:larrypsmith415@gmail.com"
   }
 };
 
